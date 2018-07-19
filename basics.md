@@ -72,7 +72,6 @@ Ints    Floats    Doubles
 
 File IO Steps:
 
-```
  - Include the <fstream> library 
  - Create a stream (input, output, both)
       - ofstream myfile; (for writing to a file)
@@ -81,7 +80,6 @@ File IO Steps:
  - Open the file  myfile.open(“filename”);
  - Write or read the file
  - Close the file myfile.close();
-```
 
 ## Header Files
 
@@ -96,11 +94,16 @@ Then added a statement to include main.hpp
 Steps for using Stringstream:
 
 Include the Stringstream library.
-    ```c++#include<sstream>```
+
+```c++#include<sstream>```
+
 Use getline to get the string from the user
-   ``` std::getline(std::cin, stringVariable);```
+
+``` std::getline(std::cin, stringVariable);```
+
 Convert the string variable to a float variable.
-    ```std::stringstream(stringVariable) >> numericVariable;```
+
+```std::stringstream(stringVariable) >> numericVariable;```
 
 
 
